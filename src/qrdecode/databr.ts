@@ -290,7 +290,7 @@ export class QRCodeDataBlockReader{
 			//if (mode != 1 && mode != 2 && mode != 4 && mode != 8)
 			//	break;
 			//}
-			if (mode != MODE_NUMBER && mode != MODE_ROMAN_AND_NUMBER && mode != MODE_8BIT_BYTE && mode != MODE_KANJI)
+			if (mode != MODE_NUMBER && mode != MODE_ROMAN_AND_NUMBER && mode != MODE_8BIT_BYTE && mode != MODE_KANJI && mode != MODE_ECI)
 			{
 				/*					canvas.println("Invalid mode: " + mode);
 				 mode = guessMode(mode);
