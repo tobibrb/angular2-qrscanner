@@ -247,7 +247,7 @@ export class QRCodeDataBlockReader{
 		return unicodeString;
 	}
 
-	parseECIValue()
+	parseECIValue():any
 {
 	var intData = 0;
 	var firstByte = this.getNextBits(8);
